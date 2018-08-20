@@ -43,3 +43,24 @@ data.default.otherSkills.forEach(function(item){
     ");
 });
 
+// initialize the education data
+// clear education div before loop
+$("#user_education").empty();
+// skills loop
+data.default.education.forEach(function(item){
+    //append item in div
+    $("#user_education").append(
+        "\
+        <div class=\"resume-item d-flex flex-column flex-md-row mb-5\">\
+            <div class=\"resume-content mr-auto\">\
+                <h3 class=\"mb-0\">"+item.title+"</h3>\
+                <div class=\"subheading mb-3\">"+item.degree+"</div>\
+                <div>"+item.description+"</div>\
+                <p>Score: "+item.score+"</p>\
+            </div>\
+            <div class=\"resume-date text-md-right\">\
+                <span class=\"text-primary\">"+item.duration+"</span>\
+            </div>\
+        </div>\
+    ");
+});

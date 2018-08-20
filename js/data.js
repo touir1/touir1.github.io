@@ -9,6 +9,29 @@ var data = new function() {
             'Développement Agile & Scrum',
             'SQL, Mysql, Oracle(PL/SQL) & Sybase(TransactSQL)',
         ],
+        'education': [
+            {
+                'title': 'Lycée Pilote de l\'Ariana (LPA), Tunisie',
+                'degree': 'Diplôme de Baccalauréat',
+                'description': 'Science - Mathématiques',
+                'duration': 'Septembre 2010 - Juin 2014',
+                'score': '16.07 / 20',
+            },
+            {
+                'title': 'Higher Institute of Management Tunis (ISG), Tunisia',
+                'degree': 'diplôme de Licence Fondamentale',
+                'description': 'Informatique - Informatique Appliqué à la Gestion',
+                'duration': 'Septembre 2014 - Juin 2017',
+                'score': '15.44 / 20',
+            },
+            {
+                'title': 'Ecole Supérieure Privée d\'Ingénierie et de Technologie Tunis (ESPRIT), Tunisia',
+                'degree': 'Diplôme d\'Ingénieur',
+                'description': 'Informatique - Génie Logiciel',
+                'duration': 'Septembre 2017 - Aujourd\'hui',
+                'score': 'Aucun',
+            },
+        ],
     };
     this.en = {
         'name': 'Touir',
@@ -59,6 +82,29 @@ var data = new function() {
             'Spring Java framework Development',
             'Agile Development & Scrum',
             'SQL, Mysql, Oracle(PL/SQL) & Sybase(TransactSQL)',
+        ],
+        'education': [
+            {
+                'title': 'Pioneer School of Ariana (LPA), Tunisia',
+                'degree': 'Bacalaureate degree',
+                'description': 'Science - Mathematics Track',
+                'duration': 'September 2010 - June 2014',
+                'score': '16.07 / 20',
+            },
+            {
+                'title': 'Higher Institute of Management Tunis (ISG), Tunisia',
+                'degree': 'Bachelor degree',
+                'description': 'Computer Science - Computing Applied to Management Track',
+                'duration': 'September 2014 - June 2017',
+                'score': '15.44 / 20',
+            },
+            {
+                'title': 'Private Higher School of Engineering and Technology Tunis (ESPRIT), Tunisia',
+                'degree': 'Engineering degree',
+                'description': 'Computer Science - Software Engineering Track',
+                'duration': 'September 2017 - Today',
+                'score': 'None',
+            },
         ],
     };
 
