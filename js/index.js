@@ -46,7 +46,7 @@ data.default.otherSkills.forEach(function(item){
 // initialize the education data
 // clear education div before loop
 $("#user_education").empty();
-// skills loop
+// education loop
 data.default.education.forEach(function(item){
     //append item in div
     $("#user_education").append(
@@ -65,10 +65,10 @@ data.default.education.forEach(function(item){
     ");
 });
 
-// initialize the education data
-// clear education div before loop
+// initialize the awards data
+// clear awards div before loop
 $("#user_awards").empty();
-// skills loop
+// awards loop
 data.default.awards.forEach(function(item){
     //append item in div
     $("#user_awards").append(
