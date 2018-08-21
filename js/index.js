@@ -64,3 +64,23 @@ data.default.education.forEach(function(item){
         </div>\
     ");
 });
+
+// initialize the education data
+// clear education div before loop
+$("#user_awards").empty();
+// skills loop
+data.default.awards.forEach(function(item){
+    //append item in div
+    $("#user_awards").append(
+        "\
+        <li>\
+            <i class=\"fa-li fa fa-trophy text-warning\"></i>\
+            "+((item.rank != null)?item.rank:"")
+            +((item.sup != null)?"<sup>" + item.sup + "</sup>":"")
+            +((item.rank != null)?((item.max != null)?" Place of " + item.max:" Place"):"") 
+            +((item.rank != null)?" - ":"")
+            +item.title + " - " + item.description + " " + " - " + item.date
+            +((item.file != null)?" - <a href=\""+item.file + "\">view</a>":"") + "\
+        </li>\
+    ");
+});
