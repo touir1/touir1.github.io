@@ -11,14 +11,14 @@ var data = new function() {
         ],
         'education': [
             {
-                'title': 'Ecole Supérieure Privée d\'Ingénierie et de Technologie Tunis (ESPRIT), Tunisia',
+                'title': 'Ecole Supérieure Privée d\'Ingénierie et de Technologie (ESPRIT) Tunis, Tunisia',
                 'degree': 'Diplôme d\'Ingénieur',
                 'description': 'Informatique - Génie Logiciel',
                 'duration': 'Septembre 2017 - Aujourd\'hui',
                 'score': 'Aucun',
             },
             {
-                'title': 'Higher Institute of Management Tunis (ISG), Tunisia',
+                'title': 'Institut Supérieure de Gestion (ISG) Tunis, Tunisia',
                 'degree': 'diplôme de Licence Fondamentale',
                 'description': 'Informatique - Informatique Appliqué à la Gestion',
                 'duration': 'Septembre 2014 - Juin 2017',

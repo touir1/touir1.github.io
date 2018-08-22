@@ -27,7 +27,10 @@
 }
 
 .lang_inner-container:nth-child(2) {
-	background: dodgerblue;
+	/*background: dodgerblue;*/
+	/*background: url(../img/uk.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;*/
 	color: white;
 	clip-path: inset(0 50% 0 0);
 	transition: .3s cubic-bezier(0,0,0,1);
@@ -47,4 +50,9 @@
 
 .lang_toggle:nth-child(1) {
 	right: 0;
+}
+
+.user_flags_grey {
+	-webkit-filter: grayscale(70%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(70%);
 }

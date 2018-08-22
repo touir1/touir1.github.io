@@ -130,6 +130,38 @@ var loadAwardData = function(langChanged){
     });
 }
 
+var loadTitles = function(langChanged){
+    if(typeof langChanged === 'undefined' || langChanged == false){
+        // nothing to do
+    }
+    if(lang == 'fr'){
+        $("#user_nav_about").html("à propos");
+        $("#user_nav_experience").html("expérience");
+        $("#user_title_experience").html("expérience");
+        $("#user_nav_education").html("études");
+        $("#user_title_education").html("études");
+        $("#user_nav_skills").html("compétences");
+        $("#user_title_skills").html("compétences");
+        $("#user_nav_interests").html("centre d'intérêts");
+        $("#user_title_interests").html("centre d'intérêts");
+        $("#user_nav_awards").html("prix");
+        $("#user_title_awards").html("prix, certifications & participations");
+    }
+    else {
+        $("#user_nav_about").html("About");
+        $("#user_nav_experience").html("Experience");
+        $("#user_title_experience").html("Experience");
+        $("#user_nav_education").html("Education");
+        $("#user_title_education").html("Education");
+        $("#user_nav_skills").html("Skills");
+        $("#user_title_skills").html("Skills");
+        $("#user_nav_interests").html("Interests");
+        $("#user_title_interests").html("Interests");
+        $("#user_nav_awards").html("Awards");
+        $("#user_title_awards").html("Awards, Certifications & Participations");
+    }
+}
+
 // loads all the data
 // @langChanged = true || false
 var loadData = function(langChanged){
@@ -137,6 +169,7 @@ var loadData = function(langChanged){
     loadEducationData(langChanged);
     loadSkillsData(langChanged);
     loadAwardData(langChanged);
+    loadTitles(langChanged);
 }
 
 // langage button controller
@@ -146,10 +179,10 @@ toggle.addEventListener('click', function() {
     loadData(true);
 	if (toggleNumber) {
 		toggleContainer.style.clipPath = 'inset(0 0 0 50%)';
-		toggleContainer.style.backgroundColor = '#18c52c';
+        //toggleContainer.style.backgroundColor = '#18c52c';
 	} else {
 		toggleContainer.style.clipPath = 'inset(0 50% 0 0)';
-		toggleContainer.style.backgroundColor = 'dodgerblue';
+        //toggleContainer.style.backgroundColor = 'dodgerblue';
 	}
 });
 
