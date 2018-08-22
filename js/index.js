@@ -121,7 +121,7 @@ var loadAwardData = function(langChanged){
                 <i class=\"fa-li fa fa-trophy text-warning\"></i>\
                 "+((item.rank != null)?item.rank:"")
                 +((item.sup != null)?"<sup>" + item.sup + "</sup>":"")
-                +((item.rank != null)?((item.max != null)?" Place of " + item.max:" Place"):"") 
+                +((item.rank != null)?((item.max != null)?" Place"+((lang == 'default' || lang == 'en')?" of ":" sur ") + item.max:" Place"):"") 
                 +((item.rank != null)?" - ":"")
                 +item.title + " - " + item.description + " " + " - " + item.date
                 +((item.file != null)?" - <a href=\""+item.file + "\" target=\"_blank\">view</a>":"") + "\
