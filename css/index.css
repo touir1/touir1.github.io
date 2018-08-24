@@ -61,3 +61,28 @@
 	-webkit-filter: saturate(200%); /* Safari 6.0 - 9.0 */
     filter: saturate(200%);
 }
+
+.margin_right {
+	margin-right: 5px;
+	
+}
+
+.lang_label {
+	font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Robot;
+	color: rgba(255,255,255,.5);
+	letter-spacing: 0.05rem;
+	text-transform: uppercase;
+}
+
+.animation {
+	transition: .3s cubic-bezier(0,0,0,1);
+}
+
+.margin_left {
+	margin-left: 5px;
+}
+
+.lang_selected {
+	color: white;
+	font-weight: 800;
+}

@@ -59,29 +59,44 @@
                     <a class="nav-link js-scroll-trigger" href="#awards" id="user_nav_awards">Awards</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#projects" id="user_nav_projects">Projects</a>
+                </li>
+                <li class="nav-item">
                     <br>
-                    <div id="lang_container" class="js-scroll-trigger">
-                        <div class="lang_inner-container">
-                            <div class="lang_toggle">
-                                <!--<p>French</p>-->
-                                <img class="user_flags_grey" src="img/fr.jpg" height="100%" width="100%">
-                            </div>
-                            <div class="lang_toggle">
-                                <!--<p>Anglais</p>-->
-                                <img class="user_flags_grey" src="img/uk.png" height="100%" width="100%">
-                            </div>
-                        </div>
-                        <div class="lang_inner-container" id='lang_toggle-container'>
-                            <div class="lang_toggle">
-                                <!--<p>Français</p>-->
-                                <img src="img/fr.jpg" class="user_flags" height="100%" width="100%">
-                            </div>
-                            <div class="lang_toggle">
-                                <!--<p>English</p>-->
-                                <img src="img/uk.png" class="user_flags" height="100%" width="100%">
-                            </div>
-                        </div>
-                    </div>
+                    <table id="lang_container">
+                        <tr>
+                            <td>
+                                <span id="en_lang_label" class="margin_right lang_label lang_selected lang_animation">en</span>
+                            </td>
+                            <td>
+                                <div id="lang_container" class="js-scroll-trigger">
+                                    <div class="lang_inner-container">
+                                        <div class="lang_toggle">
+                                            <!--<p>French</p>-->
+                                            <!--<img class="user_flags_grey" src="img/fr.jpg" height="100%" width="100%">-->
+                                        </div>
+                                        <div class="lang_toggle">
+                                            <!--<p>Anglais</p>-->
+                                            <!--<img class="user_flags_grey" src="img/uk.png" height="100%" width="100%">-->
+                                        </div>
+                                    </div>
+                                    <div class="lang_inner-container" id='lang_toggle-container'>
+                                        <div class="lang_toggle">
+                                            <!--<p>Français</p>-->
+                                            <img src="img/fr.jpg" class="user_flags" height="100%" width="100%">
+                                        </div>
+                                        <div class="lang_toggle">
+                                            <!--<p>English</p>-->
+                                            <img src="img/uk.png" class="user_flags" height="100%" width="100%">
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <span id="fr_lang_label" class="margin_left lang_label lang_animation">fr</span>
+                            </td>
+                        </tr>
+                    </table>
                 </li>
             </ul>
         </div>
@@ -100,9 +115,9 @@
                     <span id="user_phone">(123) 456-7890</span> ·
                     <a href="mailto:name@email.com" id="user_email">name@email.com</a>
                 </div>
-                <p class="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high
-                    level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further
-                    the overall value proposition.</p>
+                <p class="lead mb-5" id="user_resume_description">I am experienced in leveraging agile frameworks to provide
+                    a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative
+                    thinking to further the overall value proposition.</p>
                 <div class="social-icons">
                     <a href="#" id="user_linkedin">
                         <i class="fab fa-linkedin-in"></i>
@@ -126,6 +141,8 @@
             <div class="my-auto">
                 <h2 class="mb-5" id="user_title_experience">Experience</h2>
 
+                <div id="user_experience"></div>
+                <!--
                 <div class="resume-item d-flex flex-column flex-md-row mb-5">
                     <div class="resume-content mr-auto">
                         <h3 class="mb-0">Senior Web Developer</h3>
@@ -180,6 +197,7 @@
                         <span class="text-primary">September 2008 - June 2010</span>
                     </div>
                 </div>
+            -->
 
             </div>
 
@@ -221,12 +239,15 @@
         <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
             <div class="my-auto">
                 <h2 class="mb-5" id="user_title_interests">Interests</h2>
-                <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid
+                <div id="user_interest"></div>
+                <!--
+                <p class="mb-2">Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid
                     skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free
                     climbing, and kayaking.</p>
-                <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television
+                <p class="mb-2">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television
                     shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology
                     advancements in the front-end web development world.</p>
+                -->
             </div>
         </section>
 
@@ -238,6 +259,14 @@
                 <ul class="fa-ul mb-0" id="user_awards">
 
                 </ul>
+            </div>
+        </section>
+
+        <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
+            <div class="my-auto">
+                <h2 class="mb-5" id="user_title_projects">Projects</h2>
+
+                <div id="user_projects"></div>
             </div>
         </section>
 

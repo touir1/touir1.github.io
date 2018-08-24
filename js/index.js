@@ -19,6 +19,18 @@ var getVarInLang = function(data,varName){
     }
 }
 
+var chooseEnFr = function(enStatement, frStatement, defaultStatement){
+    if(lang == 'en'){
+        return enStatement;
+    }
+    else if(lang == 'fr'){
+        return frStatement;
+    }
+    else{
+        return defaultStatement;
+    }
+}
+
 // loads the user data
 var loadUserData = function(langChanged){
     if(typeof langChanged === 'undefined' || langChanged == false){
@@ -38,6 +50,25 @@ var loadUserData = function(langChanged){
     }
 
     $("#user_domicile").html(getVarInLang(data,'domicile'));
+    $("#user_resume_description").html(getVarInLang(data,'resumeDescription'));
+}
+
+var loadInterestsData = function(langChanged){
+    if(typeof langChanged === 'undefined' || langChanged == false){
+        // nothing to do
+    }
+
+    // initialize the other skills data
+    // clear other skills div before loop
+    $("#user_interest").empty();
+    // other skills loop
+    getVarInLang(data,'interests').forEach(function(item){
+        //append item in div
+        $("#user_interest").append(
+            "\
+            <p class=\"mb-2\">"+item+"</p>\
+        ");
+    });
 }
 
 // loads the skills data
@@ -130,6 +161,61 @@ var loadAwardData = function(langChanged){
     });
 }
 
+var loadExperienceData = function(langChanged){
+    if(typeof langChanged === 'undefined' || langChanged == false){
+        // nothing to do
+    }
+
+    // initialize the experience data
+    // clear experience div before loop
+    $("#user_experience").empty();
+    // experience loop
+    getVarInLang(data,'experience').forEach(function(item){
+        //append item in div
+        $("#user_experience").append(
+            "\
+            <div class=\"resume-item d-flex flex-column flex-md-row mb-5\">\
+                <div class=\"resume-content mr-auto\">\
+                    <h3 class=\"mb-0\">"+item.title+"</h3>\
+                    <div class=\"subheading mb-3\">"+item.subtitle+"</div>\
+                    <p>"+item.description+"</p>\
+                </div>\
+                <div class=\"resume-date text-md-right\">\
+                    <span class=\"text-primary\">"+item.date+"</span>\
+                </div>\
+            </div>\
+        ");
+    });
+}
+
+var loadProjectData = function(langChanged){
+    if(typeof langChanged === 'undefined' || langChanged == false){
+        // nothing to do
+    }
+
+    // initialize the project data
+    // clear project div before loop
+    $("#user_projects").empty();
+    // project loop
+    getVarInLang(data,'projects').forEach(function(item){
+        //append item in div
+        $("#user_projects").append(
+            "\
+            <div class=\"resume-item d-flex flex-column flex-md-row mb-5\">\
+                <div class=\"resume-content mr-auto\">\
+                    <h3 class=\"mb-0\">"+item.title+"</h3>\
+                    <div class=\"subheading mb-3\">"+item.technologies+"</div>\
+                    <div>"+item.description+"</div>"
+                    +((item.projectLink != null)?"<p>"+chooseEnFr("Link","Lien","Link")+": <a href=\""+item.projectLink+"\">"+item.title+"</a></p>":"")
+                +"</div>\
+                <div class=\"resume-date text-md-right\">\
+                    <span class=\"text-primary\">"+item.duration+"</span>\
+                </div>\
+            </div>\
+        ");
+    });
+}
+
 var loadTitles = function(langChanged){
     if(typeof langChanged === 'undefined' || langChanged == false){
         // nothing to do
@@ -146,6 +232,8 @@ var loadTitles = function(langChanged){
         $("#user_title_interests").html("centre d'intérêts");
         $("#user_nav_awards").html("prix");
         $("#user_title_awards").html("prix, certifications & participations");
+        $("#user_nav_projects").html("projets");
+        $("#user_title_projects").html("projets");
     }
     else {
         $("#user_nav_about").html("About");
@@ -159,6 +247,8 @@ var loadTitles = function(langChanged){
         $("#user_title_interests").html("Interests");
         $("#user_nav_awards").html("Awards");
         $("#user_title_awards").html("Awards, Certifications & Participations");
+        $("#user_nav_projects").html("projects");
+        $("#user_title_projects").html("projects");
     }
 }
 
@@ -170,6 +260,9 @@ var loadData = function(langChanged){
     loadSkillsData(langChanged);
     loadAwardData(langChanged);
     loadTitles(langChanged);
+    loadExperienceData(langChanged);
+    loadInterestsData(langChanged);
+    loadProjectData(langChanged);
 }
 
 // langage button controller
@@ -178,10 +271,14 @@ toggle.addEventListener('click', function() {
     lang = ((lang == 'default' || lang == 'en')?'fr':'en');
     loadData(true);
 	if (toggleNumber) {
-		toggleContainer.style.clipPath = 'inset(0 0 0 50%)';
+        toggleContainer.style.clipPath = 'inset(0 0 0 50%)';
+        $('#en_lang_label').removeClass('lang_selected');
+        $('#fr_lang_label').addClass('lang_selected');
         //toggleContainer.style.backgroundColor = '#18c52c';
 	} else {
-		toggleContainer.style.clipPath = 'inset(0 50% 0 0)';
+        toggleContainer.style.clipPath = 'inset(0 50% 0 0)';
+        $('#fr_lang_label').removeClass('lang_selected');
+        $('#en_lang_label').addClass('lang_selected');
         //toggleContainer.style.backgroundColor = 'dodgerblue';
 	}
 });

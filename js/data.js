@@ -2,12 +2,33 @@ var data = new function() {
     
     
     this.fr = {
-        'domicile': '06 Rue Kawafel, 2040 Rades, Ben Arous, Tunisia',
+        'domicile': '06 Rue Kawafel, 2040 Rades, Ben Arous, Tunisie',
+        'resumeDescription': 'Paragraphe de test',
+        'interests': [
+            'Paragraphe de test 1',
+            'Paragraphe de test 2',
+        ],
         'otherSkills': [
             'Développement en C & structures de données de base du C++',
             'Développement en utililisant le Spring framework (Java)',
             'Développement Agile & Scrum',
             'SQL, Mysql, Oracle(PL/SQL) & Sybase(TransactSQL)',
+        ],
+        'projects': [
+            {
+                'title': 'Title de projet 1',
+                'technologies': 'tech1, tech2',
+                'description': 'Teste de description de projet',
+                'duration': 'mois année - mois année',
+                'projectLink': null,
+            },
+            {
+                'title': 'Title de projet 2',
+                'technologies': 'tech1, tech2',
+                'description': 'Teste de description de projet',
+                'duration': 'mois année - mois année',
+                'projectLink': 'https://www.google.fr',
+            },
         ],
         'education': [
             {
@@ -169,6 +190,26 @@ var data = new function() {
                 'file': null,
             },
         ],
+        'experience': [
+            {
+                'title': 'Développeur web',
+                'subtitle': 'Linedata',
+                'description': 'Paragraphe de test',
+                'date': 'Septembre 2017, Aujourd\'hui',
+            },
+            {
+                'title': 'Stagiaire - Développeur web',
+                'subtitle': 'Linedata',
+                'description': 'Paragraphe de test',
+                'date': 'Février 2017, Juin 2017',
+            },
+            {
+                'title': 'Stagiaire - Banquier',
+                'subtitle': 'Banque Zitouna',
+                'description': 'Paragraphe de test',
+                'date': 'Juillet 2015, Août 2015',
+            },
+        ],
     };
     this.en = {
         'name': 'Touir',
@@ -179,7 +220,12 @@ var data = new function() {
         'linkedin': 'https://www.linkedin.com/in/mohamed-ali-touir-513235108/',
         'github': 'https://github.com/touir1',
         'twitter': 'https://twitter.com/TouirMohamedAli',
-        'domicile': '06 Kawafel Street, 2040 Rades, Ben Arous, Tunisie',
+        'domicile': '06 Kawafel Street, 2040 Rades, Ben Arous, Tunisia',
+        'resumeDescription': 'Test paragraph',
+        'interests': [
+            'Test paragraph 1',
+            'Test paragraph 2',
+        ],
         'skills': [
             {
                 'title': 'javascript', 
@@ -231,6 +277,22 @@ var data = new function() {
             'Spring Java framework Development',
             'Agile Development & Scrum',
             'SQL, Mysql, Oracle(PL/SQL) & Sybase(TransactSQL)',
+        ],
+        'projects': [
+            {
+                'title': 'Projet title 1',
+                'technologies': 'tech1, tech2',
+                'description': 'Project description test',
+                'duration': 'month year - month year',
+                'projectLink': null,
+            },
+            {
+                'title': 'Projet title 2',
+                'technologies': 'tech1, tech2',
+                'description': 'Project description test',
+                'duration': 'month year - month year',
+                'projectLink': 'http://www.google.co.uk',
+            },
         ],
         'education': [
             {
@@ -390,6 +452,26 @@ var data = new function() {
                 'description': 'Second Edition',
                 'date': '2015',
                 'file': null,
+            },
+        ],
+        'experience': [
+            {
+                'title': 'Web developer',
+                'subtitle': 'Linedata',
+                'description': 'Test paragraph',
+                'date': 'September 2017, Today',
+            },
+            {
+                'title': 'Intern - Web developer',
+                'subtitle': 'Linedata',
+                'description': 'Test paragraph',
+                'date': 'February 2017, June 2017',
+            },
+            {
+                'title': 'Intern - Banker',
+                'subtitle': 'Zitouna Bank',
+                'description': 'Test paragraph',
+                'date': 'July 2015, August 2015',
             },
         ],
     };
