@@ -228,6 +228,8 @@ var loadTitles = function(langChanged){
         $("#user_title_education").html("études");
         $("#user_nav_skills").html("compétences");
         $("#user_title_skills").html("compétences");
+        $("#user_title_tools").html("langages de programmation et outils");
+        $("#user_title_other_skills").html("autres compétences");
         $("#user_nav_interests").html("centre d'intérêts");
         $("#user_title_interests").html("centre d'intérêts");
         $("#user_nav_awards").html("prix");
@@ -243,6 +245,8 @@ var loadTitles = function(langChanged){
         $("#user_title_education").html("Education");
         $("#user_nav_skills").html("Skills");
         $("#user_title_skills").html("Skills");
+        $("#user_title_tools").html("Programming langages & tools");
+        $("#user_title_other_skills").html("Other skills");
         $("#user_nav_interests").html("Interests");
         $("#user_title_interests").html("Interests");
         $("#user_nav_awards").html("Awards");

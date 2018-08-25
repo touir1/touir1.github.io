@@ -13,6 +13,7 @@ var data = new function() {
             'Développement en utililisant le Spring framework (Java)',
             'Développement Agile & Scrum',
             'SQL, Mysql, Oracle(PL/SQL) & Sybase(TransactSQL)',
+            'Optimisation des algorithmes (algorithmes et structures de données)',
         ],
         'projects': [
             {
@@ -253,7 +254,7 @@ var data = new function() {
             },
             {
                 'title': 'nodejs', 
-                'iconClass': 'fab fa-node-js',
+                'iconClass': 'fab fa-node',
             },
             {
                 'title': 'npm', 
@@ -277,6 +278,7 @@ var data = new function() {
             'Spring Java framework Development',
             'Agile Development & Scrum',
             'SQL, Mysql, Oracle(PL/SQL) & Sybase(TransactSQL)',
+            'Algorithm optimisations (algorithms & data structures)',
         ],
         'projects': [
             {
