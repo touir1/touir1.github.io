@@ -3,7 +3,8 @@ var data = new function() {
     
     this.fr = {
         'domicile': '06 Rue Kawafel, 2040 Rades, Ben Arous, Tunisie',
-        'resumeDescription': 'Paragraphe de test',
+        'resumeDescription': 'Développeur orienté optimisation et en quête de perfection. \
+        Attentif aux détails et prêt à apprendre à tout moment',
         'interests': [
             'Paragraphe de test 1',
             'Paragraphe de test 2',
@@ -226,7 +227,8 @@ var data = new function() {
         'github': 'https://github.com/touir1',
         'twitter': 'https://twitter.com/TouirMohamedAli',
         'domicile': '06 Kawafel Street, 2040 Rades, Ben Arous, Tunisia',
-        'resumeDescription': 'Test paragraph',
+        'resumeDescription': 'Optimisation oriented developer and a perfection seeker. \
+         Has an eye for details and always willing to learn.',
         'interests': [
             'Test paragraph 1',
             'Test paragraph 2',
