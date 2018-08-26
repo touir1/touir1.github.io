@@ -17,11 +17,14 @@ var data = new function() {
         ],
         'projects': [
             {
-                'title': 'Title de projet 1',
-                'technologies': 'tech1, tech2',
-                'description': 'Teste de description de projet',
-                'duration': 'mois année - mois année',
-                'projectLink': null,
+                'title': 'Site web personnel',
+                'technologies': 'HTML, css, javascript, jquery, gulp, npm',
+                'description': 'Ce projet représente un site web personnel pour remplacer le CV standard.\
+                Au cours de son développement, on a découvert les pages github qui permettent d\'héberger\
+                un site web statique et on a renforcé nos connaissances en css et en javascript.',
+                'duration': 'août 2018',
+                'projectLink': 'https://github.com/touir1/touir1.github.io',
+                'projectLinkLabel': 'dépôt github'
             },
             {
                 'title': 'Title de projet 2',
@@ -29,6 +32,7 @@ var data = new function() {
                 'description': 'Teste de description de projet',
                 'duration': 'mois année - mois année',
                 'projectLink': 'https://www.google.fr',
+                'projectLinkLabel': null,
             },
         ],
         'education': [
@@ -282,11 +286,14 @@ var data = new function() {
         ],
         'projects': [
             {
-                'title': 'Projet title 1',
-                'technologies': 'tech1, tech2',
-                'description': 'Project description test',
-                'duration': 'month year - month year',
-                'projectLink': null,
+                'title': 'Personnal website',
+                'technologies': 'HTML, css, javascript, jquery, gulp, npm',
+                'description': 'This project represents a personal website to replace the standard CV.\
+                 During its development, we discovered the Github pages that allow to host a static \
+                 website and we reinforced our knowledge of css and javascript.',
+                'duration': 'august 2018',
+                'projectLink': 'https://github.com/touir1/touir1.github.io',
+                'projectLinkLabel': 'github repository'
             },
             {
                 'title': 'Projet title 2',
@@ -294,6 +301,7 @@ var data = new function() {
                 'description': 'Project description test',
                 'duration': 'month year - month year',
                 'projectLink': 'http://www.google.co.uk',
+                'projectLinkLabel': null,
             },
         ],
         'education': [

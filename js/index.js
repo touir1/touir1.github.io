@@ -206,7 +206,8 @@ var loadProjectData = function(langChanged){
                     <h3 class=\"mb-0\">"+item.title+"</h3>\
                     <div class=\"subheading mb-3\">"+item.technologies+"</div>\
                     <div>"+item.description+"</div>"
-                    +((item.projectLink != null)?"<p>"+chooseEnFr("Link","Lien","Link")+": <a href=\""+item.projectLink+"\">"+item.title+"</a></p>":"")
+                    +((item.projectLink != null)?"<p>"+chooseEnFr("Link","Lien","Link")+": <a href=\""+item.projectLink+"\">"
+                    +((item.projectLinkLabel!=null)?item.projectLinkLabel:item.title)+"</a></p>":"")
                 +"</div>\
                 <div class=\"resume-date text-md-right\">\
                     <span class=\"text-primary\">"+item.duration+"</span>\
@@ -228,7 +229,7 @@ var loadTitles = function(langChanged){
         $("#user_title_education").html("études");
         $("#user_nav_skills").html("compétences");
         $("#user_title_skills").html("compétences");
-        $("#user_title_tools").html("langages de programmation et outils");
+        $("#user_title_tools").html("langages de programmation & outils");
         $("#user_title_other_skills").html("autres compétences");
         $("#user_nav_interests").html("centre d'intérêts");
         $("#user_title_interests").html("centre d'intérêts");
