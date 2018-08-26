@@ -15,6 +15,7 @@ var data = new function() {
             'Développement Agile & Scrum',
             'SQL, Mysql, Oracle(PL/SQL) & Sybase(TransactSQL)',
             'Optimisation des algorithmes (algorithmes et structures de données)',
+            'Connaissances basiques en ASP.Net Core',
         ],
         'projects': [
             {
@@ -285,6 +286,7 @@ var data = new function() {
             'Agile Development & Scrum',
             'SQL, Mysql, Oracle(PL/SQL) & Sybase(TransactSQL)',
             'Algorithm optimisations (algorithms & data structures)',
+            'ASP.Net Core basic knowledge',
         ],
         'projects': [
             {
