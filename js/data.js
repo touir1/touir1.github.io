@@ -286,7 +286,7 @@ var data = new function() {
         ],
         'projects': [
             {
-                'title': 'Personnal website',
+                'title': 'Personal website',
                 'technologies': 'HTML, css, javascript, jquery, gulp, npm',
                 'description': 'This project represents a personal website to replace the standard CV.\
                  During its development, we discovered the Github pages that allow to host a static \
