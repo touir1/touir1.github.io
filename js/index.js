@@ -143,13 +143,19 @@ var loadAwardData = function(langChanged){
     // initialize the awards data
     // clear awards div before loop
     $("#user_awards").empty();
+
+    var awardsImportanceHighlight = function(importance){
+        if(data.Importance.HIGH == importance) return 'text-warning';
+        if(data.Importance.MEDIUM == importance) return 'text-muted';
+        return 'text-danger'; 
+    }
     // awards loop
     getVarInLang(data,'awards').forEach(function(item){
         //append item in div
         $("#user_awards").append(
             "\
             <li>\
-                <i class=\"fa-li fa fa-trophy text-warning\"></i>\
+                <i class=\"fa-li fa fa-trophy "+awardsImportanceHighlight(item.importance)+"\"></i>\
                 "+((item.rank != null)?item.rank:"")
                 +((item.sup != null)?"<sup>" + item.sup + "</sup>":"")
                 +((item.rank != null)?((item.max != null)?" Place"+((lang == 'default' || lang == 'en')?" of ":" sur ") + item.max:" Place"):"") 
