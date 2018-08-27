@@ -134,6 +134,14 @@ var loadEducationData = function(langChanged){
     });
 }
 
+// awards highlight method
+var awardsImportanceHighlight = function(importance){
+    var result = 'text-danger';
+    if(data.Importance.HIGH == importance) result = 'text-warning';
+    if(data.Importance.MEDIUM == importance) result = 'text-muted';
+    return result; 
+}
+
 // loads the award data
 var loadAwardData = function(langChanged){
     if(typeof langChanged === 'undefined' || langChanged == false){
@@ -144,11 +152,6 @@ var loadAwardData = function(langChanged){
     // clear awards div before loop
     $("#user_awards").empty();
 
-    var awardsImportanceHighlight = function(importance){
-        if(data.Importance.HIGH == importance) return 'text-warning';
-        if(data.Importance.MEDIUM == importance) return 'text-muted';
-        return 'text-danger'; 
-    }
     // awards loop
     getVarInLang(data,'awards').forEach(function(item){
         //append item in div
