@@ -4,8 +4,8 @@ var data = new function() {
     
     this.fr = {
         'domicile': '06 Rue Kawafel, 2040 Rades, Ben Arous, Tunisie',
-        'resumeDescription': 'Développeur orienté optimisation et en quête de perfection. \
-        Attentif aux détails et prêt à apprendre à tout moment',
+        'resumeDescription': 'Développeur orienté <b>optimisation</b> et en quête de <b>perfection</b>. \
+        Attentif aux détails et <b>prêt à apprendre</b> à tout moment',
         'interests': [
             'Paragraphe de test 1',
             'Paragraphe de test 2',
@@ -22,8 +22,8 @@ var data = new function() {
             {
                 'title': 'Site web personnel',
                 'technologies': 'HTML, css, javascript, jquery, gulp, npm',
-                'description': 'Ce projet représente un site web personnel pour remplacer le CV standard.\
-                Au cours de son développement, j\'ai découvert les pages github qui permettent d\'héberger\
+                'description': 'Ce projet représente un <b>site web personnel</b> pour remplacer le CV standard.\
+                Au cours de son développement, j\'ai découvert les <b>pages Github</b> qui permettent d\'héberger\
                 un site web statique et j\'ai renforcé mes connaissances en css et en javascript.',
                 'duration': 'août 2018',
                 'projectLink': 'https://github.com/touir1/touir1.github.io',
@@ -32,7 +32,7 @@ var data = new function() {
             {
                 'title': 'Facebook chat en mode console',
                 'technologies': 'python, fbchat api',
-                'description': 'Ce projet représente une application de chat facebook développé en mode console.\
+                'description': 'Ce projet représente une <b>application de chat</b> Facebook développé en mode console.\
                  Ce projet a été développé dans le but d\'apprenddre le langage de programmation python.',
                 'duration': 'septembre 2017',
                 'projectLink': 'https://github.com/touir1/Facebook-Chat-Terminal-mode',
@@ -245,8 +245,8 @@ var data = new function() {
         'github': 'https://github.com/touir1',
         'twitter': 'https://twitter.com/TouirMohamedAli',
         'domicile': '06 Kawafel Street, 2040 Rades, Ben Arous, Tunisia',
-        'resumeDescription': 'Optimisation oriented developer and a perfection seeker. \
-         Has an eye for details and always willing to learn.',
+        'resumeDescription': '<b>Optimisation</b> oriented developer and a <b>perfection</b> seeker. \
+         Has an eye for details and always <b>willing to learn</b>.',
         'interests': [
             'Test paragraph 1',
             'Test paragraph 2',
@@ -309,17 +309,29 @@ var data = new function() {
             {
                 'title': 'Personal website',
                 'technologies': 'HTML, css, javascript, jquery, gulp, npm',
-                'description': 'This project represents a personal website to replace the standard CV.\
-                 During its development, I discovered the Github pages that allow to host a static \
+                'description': 'This project represents a <b>personal website</b> to replace the standard CV.\
+                 During its development, I discovered the <b>Github pages</b> that allow to host a static \
                  website and I reinforced my knowledge of css and javascript.',
                 'duration': 'august 2018',
                 'projectLink': 'https://github.com/touir1/touir1.github.io',
                 'projectLinkLabel': 'github repository'
             },
             {
+                'title': 'Linear regression algorithm',
+                'technologies': 'Python, jupyter notebook, matplotlib, latex',
+                'description': 'This project represents an implementation of the simple <b>linear regression</b> algorithm \
+                 From scratch and then using the <b>gradient descent</b> algorithm with it. \
+                 This project was a way to understand those <b>data science</b> algorithms. \
+                 this project is well documented using the jupyer notebooks, latex for math formulas \
+                 and matplotlib for the <b>data visualisation</b>.',
+                'duration': 'july 2018',
+                'projectLink': 'https://github.com/touir1/linear-regression-SGD',
+                'projectLinkLabel': 'github repository'
+            },
+            {
                 'title': 'Facebook chat terminal mode',
                 'technologies': 'python, fbchat api',
-                'description': 'This project represents a facebook chat application built to work in terminal.\
+                'description': 'This project represents a Facebook <b>chat application</b> built to work in terminal.\
                  The project was meant to teach me about python a little more so it was a great experience.',
                 'duration': 'september 2017',
                 'projectLink': 'https://github.com/touir1/Facebook-Chat-Terminal-mode',

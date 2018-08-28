@@ -134,7 +134,7 @@ var loadEducationData = function(langChanged){
     });
 }
 
-// awards highlight method
+// awards highlight function
 var awardsImportanceHighlight = function(importance){
     var result = 'text-danger';
     if(data.Importance.HIGH == importance) result = 'text-warning';
@@ -215,7 +215,7 @@ var loadProjectData = function(langChanged){
                     <h3 class=\"mb-0\">"+item.title+"</h3>\
                     <div class=\"subheading mb-3\">"+item.technologies+"</div>\
                     <div>"+item.description+"</div>"
-                    +((item.projectLink != null)?"<p>"+chooseEnFr("Link","Lien","Link")+": <a href=\""+item.projectLink+"\">"
+                    +((item.projectLink != null)?"<p class=\"mt-1\">"+chooseEnFr("Link","Lien","Link")+": <a href=\""+item.projectLink+"\">"
                     +((item.projectLinkLabel!=null)?item.projectLinkLabel:item.title)+"</a></p>":"")
                 +"</div>\
                 <div class=\"resume-date text-md-right\">\
