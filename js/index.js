@@ -2,8 +2,6 @@
 var lang = 'default';
 
 // langage button variables
-var toggle = document.getElementById('lang_container');
-var toggleContainer = document.getElementById('lang_toggle-container');
 var toggleNumber;
 
 // get the variable in the page langage
@@ -279,22 +277,40 @@ var loadData = function(langChanged){
     loadProjectData(langChanged);
 }
 
-// langage button controller
-toggle.addEventListener('click', function() {
+// event to change the langage
+$('#lang_checkbox_container').bind('click',function(){
+    $('#lang_checkbox').prop('checked',!toggleNumber);
     toggleNumber = !toggleNumber;
     lang = ((lang == 'default' || lang == 'en')?'fr':'en');
     loadData(true);
-	if (toggleNumber) {
-        toggleContainer.style.clipPath = 'inset(0 0 0 50%)';
+
+    if (toggleNumber) {
         $('#en_lang_label').removeClass('lang_selected');
         $('#fr_lang_label').addClass('lang_selected');
-        //toggleContainer.style.backgroundColor = '#18c52c';
 	} else {
-        toggleContainer.style.clipPath = 'inset(0 50% 0 0)';
         $('#fr_lang_label').removeClass('lang_selected');
         $('#en_lang_label').addClass('lang_selected');
-        //toggleContainer.style.backgroundColor = 'dodgerblue';
-	}
+    }
+    //$('.navbar-collapse').collapse('hide');
+});
+
+// checks if the @child node is a descendent of the @parent node
+function isDescendant(parent, child) {
+    var node = child.parentNode;
+    while (node != null) {
+        if (node == parent) {
+            return true;
+        }
+        node = node.parentNode;
+    }
+    return false;
+}
+
+// event to close the navbar if we click out of it
+$(document).click(function(e) {
+	if (!isDescendant($('#navbarSupportedContent')[0], e.target)) {
+    	$('.navbar-collapse').collapse('hide');
+    }
 });
 
 loadData(false);

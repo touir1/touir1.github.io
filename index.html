@@ -69,28 +69,11 @@
                                 <span id="en_lang_label" class="margin_right lang_label lang_selected lang_animation">en</span>
                             </td>
                             <td>
-                                <div id="lang_container" class="js-scroll-trigger">
-                                    <div class="lang_inner-container">
-                                        <div class="lang_toggle">
-                                            <!--<p>French</p>-->
-                                            <!--<img class="user_flags_grey" src="img/fr.jpg" height="100%" width="100%">-->
-                                        </div>
-                                        <div class="lang_toggle">
-                                            <!--<p>Anglais</p>-->
-                                            <!--<img class="user_flags_grey" src="img/uk.png" height="100%" width="100%">-->
-                                        </div>
-                                    </div>
-                                    <div class="lang_inner-container" id='lang_toggle-container'>
-                                        <div class="lang_toggle">
-                                            <!--<p>Français</p>-->
-                                            <img src="img/fr.jpg" class="user_flags" height="100%" width="100%">
-                                        </div>
-                                        <div class="lang_toggle">
-                                            <!--<p>English</p>-->
-                                            <img src="img/uk.png" class="user_flags" height="100%" width="100%">
-                                        </div>
-                                    </div>
+                                <div id="lang_checkbox_container">
+                                    <input type="checkbox" id="lang_checkbox" hidden>
+                                    <div id="lang_circle" class="user_flags"></div>
                                 </div>
+
                             </td>
                             <td>
                                 <span id="fr_lang_label" class="margin_left lang_label lang_animation">fr</span>
@@ -271,6 +254,8 @@
         </section>
 
     </div>
+
+
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>

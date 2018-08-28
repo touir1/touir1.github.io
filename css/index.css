@@ -4,52 +4,10 @@
 	height: 30px;
 	margin: auto;
 	position: relative;
-	border-radius: 6px;
+	border-radius: 12px;
 	overflow: hidden;
 	user-select: none;
 	cursor: pointer;
-}
-
-.lang_inner-container {
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: inherit;
-	height: inherit;
-	text-transform: uppercase;
-	font-size: .6em;
-	letter-spacing: .2em;
-}
-
-.lang_inner-container:first-child {
-	background: #e9e9e9;
-	color: #a9a9a9;
-}
-
-.lang_inner-container:nth-child(2) {
-	/*background: dodgerblue;*/
-	/*background: url(../img/uk.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;*/
-	color: white;
-	clip-path: inset(0 50% 0 0);
-	transition: .3s cubic-bezier(0,0,0,1);
-}
-
-.lang_toggle {
-	width: 50%;
-	position: absolute;
-	height: inherit;
-	display: flex;
-	box-sizing: border-box;
-}
-
-.lang_toggle p {
-	margin: auto;
-}
-
-.lang_toggle:nth-child(1) {
-	right: 0;
 }
 
 .user_flags_grey {
@@ -59,7 +17,9 @@
 
 .user_flags {
 	-webkit-filter: saturate(200%); /* Safari 6.0 - 9.0 */
-    filter: saturate(200%);
+	filter: saturate(200%); 
+	-webkit-background-size: cover; /* pour anciens Chrome et Safari */
+	background-size: cover; /* version standardisée */
 }
 
 .margin_right {
@@ -74,10 +34,6 @@
 	text-transform: uppercase;
 }
 
-.animation {
-	transition: .3s cubic-bezier(0,0,0,1);
-}
-
 .margin_left {
 	margin-left: 5px;
 }
@@ -85,4 +41,31 @@
 .lang_selected {
 	color: white;
 	font-weight: 800;
+}
+
+#lang_checkbox:checked ~ #lang_circle {
+	transform: translate(100%, 0);
+	background: url("../img/fr.jpg");
+	background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;              /* optional, center the image */
+  }
+  
+#lang_checkbox_container {
+	width: 80px;
+	height: 40px;
+	padding: 2px;
+	border-radius: 20px;
+	background-color: azure;
+}
+  
+#lang_circle {
+	background: url("../img/uk.png");
+	background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+	background-position: center center;              /* optional, center the image */
+	border-radius: 20px;
+	width: 50%;
+	height: 100%;
+	transition: transform 0.5s, background-image 0.5s linear;
 }
