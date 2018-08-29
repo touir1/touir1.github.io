@@ -32,7 +32,7 @@ You must have npm and Gulp installed globally on your machine in order to use th
 
 ## License ##
 
-linear-regression-SGD is published under the [MIT license](http://www.opensource.org/licenses/mit-license).
+touir1.github.io is published under the [MIT license](http://www.opensource.org/licenses/mit-license).
 
 ## Special thanks ##
 
