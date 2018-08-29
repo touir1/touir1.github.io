@@ -1,3 +1,6 @@
+// set data
+var data = getData();
+
 // langage variable
 var lang = 'default';
 
