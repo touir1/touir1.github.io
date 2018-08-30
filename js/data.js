@@ -45,6 +45,14 @@ function getData() {
                     'projectLinkLabel': 'dépôt github'
                 },
                 {
+                    'title': 'Analyse de sentiments des tweets',
+                    'technologies': 'Python, twitter api, Jupyter notebook',
+                    'description': 'to finish',
+                    'duration': 'juillet 2018',
+                    'projectLink': 'https://github.com/touir1/sentiment-analysis-twitter-textblob',
+                    'projectLinkLabel': 'dépôt github'
+                },
+                {
                     'title': 'Facebook chat en mode console',
                     'technologies': 'python, fbchat api',
                     'description': 'Ce projet représente une <b>application de chat</b> Facebook développé en mode console. \
@@ -341,6 +349,14 @@ function getData() {
                  and Matplotlib for the <b>data visualisation</b>.',
                     'duration': 'july 2018',
                     'projectLink': 'https://github.com/touir1/linear-regression-SGD',
+                    'projectLinkLabel': 'github repository'
+                },
+                {
+                    'title': 'Sentiment analysis of tweets',
+                    'technologies': 'Python, twitter api, Jupyter notebook',
+                    'description': 'to finish',
+                    'duration': 'july 2018',
+                    'projectLink': 'https://github.com/touir1/sentiment-analysis-twitter-textblob',
                     'projectLinkLabel': 'github repository'
                 },
                 {
