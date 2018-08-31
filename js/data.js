@@ -47,7 +47,8 @@ function getData() {
                 {
                     'title': 'Analyse de sentiments des tweets',
                     'technologies': 'Python, twitter api, Jupyter notebook',
-                    'description': 'to finish',
+                    'description': 'Ce projet a été réalisé pour essayer de faire une <b>analyse des sentiments</b> des tweets\
+                     en utilisant la bibliothéque Textblob. Ce projet est documenté en utilisant une notebook Jupyter.',
                     'duration': 'juillet 2018',
                     'projectLink': 'https://github.com/touir1/sentiment-analysis-twitter-textblob',
                     'projectLinkLabel': 'dépôt github'
@@ -56,7 +57,8 @@ function getData() {
                     'title': 'Facebook chat en mode console',
                     'technologies': 'python, fbchat api',
                     'description': 'Ce projet représente une <b>application de chat</b> Facebook développé en mode console. \
-                    Ce projet a été développé dans le but d\'apprenddre le langage de programmation python.',
+                    Ce projet a été développé dans le but d\'apprenddre le langage de programmation python. J\'ai \
+                    utilisé un api nommé <b>fbchat</b> pour la réalisation du projet.',
                     'duration': 'septembre 2017',
                     'projectLink': 'https://github.com/touir1/Facebook-Chat-Terminal-mode',
                     'projectLinkLabel': 'dépôt github',
@@ -354,7 +356,8 @@ function getData() {
                 {
                     'title': 'Sentiment analysis of tweets',
                     'technologies': 'Python, twitter api, Jupyter notebook',
-                    'description': 'to finish',
+                    'description': 'This project was made to test out the <b>sentiment analysis</b> of tweets using\
+                     the Textblob library. This was documented using the Jupyter notebook.',
                     'duration': 'july 2018',
                     'projectLink': 'https://github.com/touir1/sentiment-analysis-twitter-textblob',
                     'projectLinkLabel': 'github repository'
@@ -363,7 +366,8 @@ function getData() {
                     'title': 'Facebook chat terminal mode',
                     'technologies': 'python, fbchat api',
                     'description': 'This project represents a Facebook <b>chat application</b> built to work in terminal.\
-                 The project was meant to teach me about python a little more so it was a great experience.',
+                 The project was meant to teach me about python a little more so it was a great experience. I used a \
+                 facebook api called <b>fbchat</b>.',
                     'duration': 'september 2017',
                     'projectLink': 'https://github.com/touir1/Facebook-Chat-Terminal-mode',
                     'projectLinkLabel': 'github repository',
