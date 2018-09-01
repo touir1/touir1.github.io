@@ -63,6 +63,17 @@ function getData() {
                     'projectLink': 'https://github.com/touir1/Facebook-Chat-Terminal-mode',
                     'projectLinkLabel': 'dépôt github',
                 },
+                {
+                    'title': 'Classification de spam',
+                    'technologies': 'python, sklearn',
+                    'description': 'Ce projet représente un classificateur de spam qui peux déterminer si un mail \
+                    est un spam ou pas. \
+                 Ce projet a été développé dans le but d\'apprendre l\'algorithme de <b>classification naïve bayésienne</b> \
+                 du domaine des <b>sciences de données</b>.',
+                    'duration': 'août 2017',
+                    'projectLink': 'https://github.com/touir1/Spam-Classifier-machine-learning-Gaussian-Naive-Bayes',
+                    'projectLinkLabel': 'dépôt github',
+                },
             ],
             'education': [
                 {
@@ -370,6 +381,17 @@ function getData() {
                  facebook api called <b>fbchat</b>.',
                     'duration': 'september 2017',
                     'projectLink': 'https://github.com/touir1/Facebook-Chat-Terminal-mode',
+                    'projectLinkLabel': 'github repository',
+                },
+                {
+                    'title': 'Spam Classifier',
+                    'technologies': 'python, sklearn',
+                    'description': 'This project represents a Spam classifier who determines if your mail \
+                    is a spam or not. \
+                 The project was meant to teach me about the <b>naive bayes</b> algorithm from the <b>data science</b> \
+                 field.',
+                    'duration': 'august 2017',
+                    'projectLink': 'https://github.com/touir1/Spam-Classifier-machine-learning-Gaussian-Naive-Bayes',
                     'projectLinkLabel': 'github repository',
                 },
             ],
