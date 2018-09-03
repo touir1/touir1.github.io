@@ -74,6 +74,17 @@ function getData() {
                     'projectLink': 'https://github.com/touir1/Spam-Classifier-machine-learning-Gaussian-Naive-Bayes',
                     'projectLinkLabel': 'dépôt github',
                 },
+                {
+                    'title': 'Date2',
+                    'technologies': 'Javascript, npm, nodejs',
+                    'description': 'Date2 est un <b>module npm</b> Javascript créé pour la manipulation des dates. \
+                    Ce dernier a été développé pour faciliter la <b>manipulation des dates</b> et il fourni un ensemble de fonctions <b>facile d\'utilisation</b>. \
+                    Ce module peut être utilisé dans des applications Javascript ou Node.js \
+                    application.',
+                    'duration': 'juin 2017',
+                    'projectLink': 'https://github.com/touir1/Date2',
+                    'projectLinkLabel': 'dépôt github',
+                },
             ],
             'education': [
                 {
@@ -392,6 +403,17 @@ function getData() {
                  field.',
                     'duration': 'august 2017',
                     'projectLink': 'https://github.com/touir1/Spam-Classifier-machine-learning-Gaussian-Naive-Bayes',
+                    'projectLinkLabel': 'github repository',
+                },
+                {
+                    'title': 'Date2',
+                    'technologies': 'Javascript, npm, nodejs',
+                    'description': 'Date2 is a Javascript <b>npm module</b> created to manipulate the date. \
+                    It was designed to easily <b>manipulate the date</b> and it provides a pretty fair number \
+                    of functions that are <b>easy to use</b>. This module can be used in a Javascript or a Node.js \
+                    application.',
+                    'duration': 'june 2017',
+                    'projectLink': 'https://github.com/touir1/Date2',
                     'projectLinkLabel': 'github repository',
                 },
             ],
