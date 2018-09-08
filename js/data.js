@@ -23,6 +23,16 @@ function getData() {
             ],
             'projects': [
                 {
+                    'title': 'Indexation de fichiers',
+                    'technologies': 'nodejs, jquery, javascript, npm',
+                    'description': 'Ce projet représente une application web qui permet d\'<b>indexer</b> un répertoire \
+                    dans le disque. Ce projet a été réalisé afin de faciliter l\'accés à une documentation qui est éparpiller \
+                     sur plusieurs répertoires dans le disque.',
+                    'duration': 'septembre 2018',
+                    'projectLink': 'https://github.com/touir1/disk-file-scraping',
+                    'projectLinkLabel': 'dépôt github'
+                },
+                {
                     'title': 'Site web personnel',
                     'technologies': 'HTML, css, javascript, jquery, gulp, npm',
                     'description': 'Ce projet représente un <b>site web personnel</b> pour remplacer le CV standard.\
@@ -353,6 +363,16 @@ function getData() {
                 'ASP.Net Core basic knowledge',
             ],
             'projects': [
+                {
+                    'title': 'Files indexing',
+                    'technologies': 'nodejs, jquery, javascript, npm',
+                    'description': 'This project represents a web application that was meant to <b>index</b> a directory \
+                    in the disk. This project a was developed to make it easy to access the documentation which was scattered \
+                     over multiple directories in the disk.',
+                    'duration': 'september 2018',
+                    'projectLink': 'https://github.com/touir1/disk-file-scraping',
+                    'projectLinkLabel': 'github repository'
+                },
                 {
                     'title': 'Personal website',
                     'technologies': 'HTML, css, javascript, jquery, gulp, npm',
