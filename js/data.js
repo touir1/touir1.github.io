@@ -287,7 +287,11 @@ function getData() {
                 {
                     'title': 'Stagiaire - Banquier',
                     'subtitle': 'Banque Zitouna',
-                    'description': 'Paragraphe de test',
+                    'description': 'Mon stage chez la banque Zitouna m\'a permis de connaitre \
+                    comment les sociétés financières fonctionnent en interne. J\' ai appris le rôle \
+                    de chaque individu (caissier, ressource humaine, superviseur sénior et le \
+                    directeur de l\'agence). J\'ai aussi vu comment ils gèrent les risques et distribuent \
+                    la charge de travail sur les gestionnaires.',
                     'date': 'Juillet 2015, Août 2015',
                 },
             ],
@@ -628,7 +632,10 @@ function getData() {
                 {
                     'title': 'Intern - Banker',
                     'subtitle': 'Zitouna Bank',
-                    'description': 'Test paragraph',
+                    'description': 'My internship at Zitouna Bank was all about learning how \
+                    financial companies work. I learned a lot about the role of each individual \
+                    (Cashier, Human ressource, senior supervisor and the manager). I also learned \
+                    about processes used to minimize the risks and distribute the work load.',
                     'date': 'July 2015, August 2015',
                 },
             ],
