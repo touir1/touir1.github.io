@@ -67,7 +67,7 @@ var loadInterestsData = function(langChanged){
         //append item in div
         $("#user_interest").append(
             "\
-            <p class=\"mb-2\">"+item+"</p>\
+            <li class=\"mb-2 ul_circle\">"+item+"</li>\
         ");
     });
 }

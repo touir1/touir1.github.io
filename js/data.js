@@ -309,8 +309,10 @@ function getData() {
             'resumeDescription': '<b>Optimisation</b> oriented developer and a <b>perfection</b> seeker. \
          Has an eye for details and always <b>willing to learn</b>.',
             'interests': [
-                'Test paragraph 1',
-                'Test paragraph 2',
+                'Competitive programming and problem solving',
+                'Backend optimisations and algorithmics',
+                'Software architectures and development cycles',
+                'Teamwork and knowledge sharing',
             ],
             'skills': [
                 {
@@ -620,13 +622,26 @@ function getData() {
                 {
                     'title': 'Web developer',
                     'subtitle': 'Linedata',
-                    'description': 'Test paragraph',
+                    'description': 'One of the many things I learned from working at Linedata \
+                    was the software development cycle. The work is partitioned into different \
+                    steps going from the client request until the tests after the deployment of \
+                    the project deliverable. I worked as a full stack software developer using \
+                    Spring framework and Sybase DBMS as backend technologies and an internal \
+                    framework for the front part of the software. With a team of 9 persons, \
+                    we worked as developers of a software named Uniloan used to manage huge loans \
+                    and financements (Syndicated loan).',
                     'date': 'September 2017, Today',
                 },
                 {
                     'title': 'Intern - Web developer',
                     'subtitle': 'Linedata',
-                    'description': 'Test paragraph',
+                    'description': 'I learned many things during my internship at Linedata. \
+                    I had the pleasure to work on a project that helped the team leaders to \
+                    get a general view on the performance of each member of their team using \
+                    Jira database. I also had the chance to learn the Java Spring framework \
+                    and work with AngularJS framework. Apart from the technical stuff, I also \
+                    had the chance to learn how to work with a team, do some investigations \
+                    and always report what I found or did so far.',
                     'date': 'February 2017, June 2017',
                 },
                 {
