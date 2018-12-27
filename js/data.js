@@ -10,8 +10,10 @@ function getData() {
             'resumeDescription': 'Développeur orienté <b>optimisation</b> et en quête de <b>perfection</b>. \
         Attentif aux détails et <b>prêt à apprendre</b> à tout moment',
             'interests': [
-                'Paragraphe de test 1',
-                'Paragraphe de test 2',
+                'Résolution de problèmes et programmation compétitive',
+                'Optimisation et algorithmique',
+                'Architectures logicielles et cycles de développement',
+                'Travail d\'équipe et partage de connaissances',
             ],
             'otherSkills': [
                 'Développement en C & structures de données de base du C++',
@@ -275,20 +277,33 @@ function getData() {
                 {
                     'title': 'Développeur web',
                     'subtitle': 'Linedata',
-                    'description': 'Paragraphe de test',
+                    'description': 'L\'une des nombreuses choses que j\'ai apprises en travaillant chez Linedata \
+                    est le <b>cycle de développement</b> de logiciels. Le travail est partitionné en différentes étapes \
+                    allant de la demande du client jusqu\'aux tests après le déploiement du livrable du projet. J\'ai \
+                    travaillé en tant que développeur logiciel full stack en utilisant le <b>framework Spring</b> et \
+                     le <b>SGBD Sybase</b> comme technologies backend. Avec une équipe de 9 personnes, nous avons développé \
+                     un logiciel appelé Uniloan, utilisé pour gérer d’énormes crédits et financements (<b>crédits \
+                        syndiqués</b>).',
                     'date': 'Septembre 2017, Aujourd\'hui',
                 },
                 {
                     'title': 'Stagiaire - Développeur web',
                     'subtitle': 'Linedata',
-                    'description': 'Paragraphe de test',
+                    'description': 'J\'ai appris beaucoup de choses lors de mon stage chez Linedata. \
+                    J\'ai eu le plaisir de travailler sur un projet qui a aidé les chefs d\'équipe à \
+                    avoir une vue générale sur les performances de chaque membre de leur équipe en \
+                    utilisant la base de données <b>Jira</b>. J\'ai également eu la chance d\'apprendre le \
+                    <b>framework Java Spring</b> et de travailler avec le framework <b>AngularJS</b>. Outre les \
+                    aspects techniques, j\'ai également eu la chance d\'apprendre à travailler en \
+                    équipe, à mener des enquêtes et à rendre compte de ce que j\'ai trouvé ou fait \
+                    jusqu\'à présent.',
                     'date': 'Février 2017, Juin 2017',
                 },
                 {
                     'title': 'Stagiaire - Banquier',
                     'subtitle': 'Banque Zitouna',
                     'description': 'Mon stage chez la banque Zitouna m\'a permis de connaitre \
-                    comment les sociétés financières fonctionnent en interne. J\' ai appris le rôle \
+                    comment les <b>sociétés financières</b> fonctionnent en interne. J\' ai appris le rôle \
                     de chaque individu (caissier, ressource humaine, superviseur sénior et le \
                     directeur de l\'agence). J\'ai aussi vu comment ils gèrent les risques et distribuent \
                     la charge de travail sur les gestionnaires.',
@@ -623,13 +638,12 @@ function getData() {
                     'title': 'Web developer',
                     'subtitle': 'Linedata',
                     'description': 'One of the many things I learned from working at Linedata \
-                    was the software development cycle. The work is partitioned into different \
+                    was the software <b>development cycle</b>. The work is partitioned into different \
                     steps going from the client request until the tests after the deployment of \
                     the project deliverable. I worked as a full stack software developer using \
-                    Spring framework and Sybase DBMS as backend technologies and an internal \
-                    framework for the front part of the software. With a team of 9 persons, \
-                    we worked as developers of a software named Uniloan used to manage huge loans \
-                    and financements (Syndicated loan).',
+                    <b>Spring framework</b> and <b>Sybase DBMS</b> as backend technologies. With \
+                    a team of 9 persons, we worked as developers of a software named Uniloan used \
+                    to manage huge loans and financements (<b>Syndicated loans</b>).',
                     'date': 'September 2017, Today',
                 },
                 {
@@ -638,8 +652,8 @@ function getData() {
                     'description': 'I learned many things during my internship at Linedata. \
                     I had the pleasure to work on a project that helped the team leaders to \
                     get a general view on the performance of each member of their team using \
-                    Jira database. I also had the chance to learn the Java Spring framework \
-                    and work with AngularJS framework. Apart from the technical stuff, I also \
+                    <b>Jira</b> database. I also had the chance to learn the Java <b>Spring framework</b> \
+                    and work with <b>AngularJS</b> framework. Apart from the technical stuff, I also \
                     had the chance to learn how to work with a team, do some investigations \
                     and always report what I found or did so far.',
                     'date': 'February 2017, June 2017',
@@ -648,7 +662,7 @@ function getData() {
                     'title': 'Intern - Banker',
                     'subtitle': 'Zitouna Bank',
                     'description': 'My internship at Zitouna Bank was all about learning how \
-                    financial companies work. I learned a lot about the role of each individual \
+                    <b>financial companies</b> work. I learned a lot about the role of each individual \
                     (Cashier, Human ressource, senior supervisor and the manager). I also learned \
                     about processes used to minimize the risks and distribute the work load.',
                     'date': 'July 2015, August 2015',
