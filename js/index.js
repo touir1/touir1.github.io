@@ -36,6 +36,7 @@ var chooseEnFr = function(enStatement, frStatement, defaultStatement){
 var loadUserData = function(langChanged){
     if(typeof langChanged === 'undefined' || langChanged == false){
         // initialize the user data
+        document.title = data.default.surname + ' ' + data.default.name;
         $("#user_surname").html(data.default.surname);
         $("#user_name").html(data.default.name);
         $('#user_fullName').html(data.default.surname + ' ' + data.default.name);
@@ -192,6 +193,11 @@ var loadExperienceData = function(langChanged){
                 </div>\
                 <div class=\"resume-date text-md-right\">\
                     <span class=\"text-primary\">"+item.date+"</span>\
+                    "+((item.companyLogo!=null)?
+                    "<div class=\"brand-img\">\
+                        <img src=\""+item.companyLogo+"\">\
+                    </div>\
+                    ":"")+"\
                 </div>\
             </div>\
         ");
@@ -216,7 +222,7 @@ var loadProjectData = function(langChanged){
                     <h3 class=\"mb-0\">"+item.title+"</h3>\
                     <div class=\"subheading mb-3\">"+item.technologies+"</div>\
                     <div>"+item.description+"</div>"
-                    +((item.projectLink != null)?"<p class=\"mt-1\">"+chooseEnFr("Link","Lien","Link")+": <a href=\""+item.projectLink+"\">"
+                    +((item.projectLink != null)?"<p class=\"mt-1 do-not-print\">"+chooseEnFr("Link","Lien","Link")+": <a href=\""+item.projectLink+"\">"
                     +((item.projectLinkLabel!=null)?item.projectLinkLabel:item.title)+"</a></p>":"")
                 +"</div>\
                 <div class=\"resume-date text-md-right\">\

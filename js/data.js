@@ -277,6 +277,7 @@ function getData() {
                 {
                     'title': 'Développeur web',
                     'subtitle': 'Linedata',
+                    'companyLogo': './img/Linedata_Logo.png',
                     'description': 'L\'une des nombreuses choses que j\'ai apprises en travaillant chez Linedata \
                     est le <b>cycle de développement</b> de logiciels. Le travail est partitionné en différentes étapes \
                     allant de la demande du client jusqu\'aux tests après le déploiement du livrable du projet. J\'ai \
@@ -289,6 +290,7 @@ function getData() {
                 {
                     'title': 'Stagiaire - Développeur web',
                     'subtitle': 'Linedata',
+                    'companyLogo': './img/Linedata_Logo.png',
                     'description': 'J\'ai appris beaucoup de choses lors de mon stage chez Linedata. \
                     J\'ai eu le plaisir de travailler sur un projet qui a aidé les chefs d\'équipe à \
                     avoir une vue générale sur les performances de chaque membre de leur équipe en \
@@ -302,6 +304,7 @@ function getData() {
                 {
                     'title': 'Stagiaire - Banquier',
                     'subtitle': 'Banque Zitouna',
+                    'companyLogo': './img/Zitouna_Bank_Logo.png',
                     'description': 'Mon stage chez la banque Zitouna m\'a permis de connaitre \
                     comment les <b>sociétés financières</b> fonctionnent en interne. J\' ai appris le rôle \
                     de chaque individu (caissier, ressource humaine, superviseur sénior et le \
@@ -637,6 +640,7 @@ function getData() {
                 {
                     'title': 'Web developer',
                     'subtitle': 'Linedata',
+                    'companyLogo': './img/Linedata_Logo.png',
                     'description': 'One of the many things I learned from working at Linedata \
                     was the software <b>development cycle</b>. The work is partitioned into different \
                     steps going from the client request until the tests after the deployment of \
@@ -649,6 +653,7 @@ function getData() {
                 {
                     'title': 'Intern - Web developer',
                     'subtitle': 'Linedata',
+                    'companyLogo': './img/Linedata_Logo.png',
                     'description': 'I learned many things during my internship at Linedata. \
                     I had the pleasure to work on a project that helped the team leaders to \
                     get a general view on the performance of each member of their team using \
@@ -661,6 +666,7 @@ function getData() {
                 {
                     'title': 'Intern - Banker',
                     'subtitle': 'Zitouna Bank',
+                    'companyLogo': './img/Zitouna_Bank_Logo.png',
                     'description': 'My internship at Zitouna Bank was all about learning how \
                     <b>financial companies</b> work. I learned a lot about the role of each individual \
                     (Cashier, Human ressource, senior supervisor and the manager). I also learned \
