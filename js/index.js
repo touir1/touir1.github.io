@@ -60,15 +60,15 @@ var loadInterestsData = function(langChanged){
         // nothing to do
     }
 
-    // initialize the other skills data
-    // clear other skills div before loop
+    // initialize the interest data
+    // clear interest div before loop
     $("#user_interest").empty();
-    // other skills loop
+    // interest loop
     getVarInLang(data,'interests').forEach(function(item){
         //append item in div
         $("#user_interest").append(
             "\
-            <li class=\"mb-2 ul_circle\">"+item+"</li>\
+            <li class=\"mb-2\"><i class=\"fa-li fa fa-check\"></i>"+item+"</li>\
         ");
     });
 }

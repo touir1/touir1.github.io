@@ -10,10 +10,10 @@ function getData() {
             'resumeDescription': 'Développeur orienté <b>optimisation</b> et en quête de <b>perfection</b>. \
         Attentif aux détails et <b>prêt à apprendre</b> à tout moment',
             'interests': [
-                'Résolution de problèmes et programmation compétitive',
-                'Optimisation et algorithmique',
-                'Architectures logicielles et cycles de développement',
-                'Travail d\'équipe et partage de connaissances',
+                'Résolution de problèmes & programmation compétitive',
+                'Optimisation & algorithmique',
+                'Architectures logicielles & cycles de développement',
+                'Travail d\'équipe & partage de connaissances',
             ],
             'otherSkills': [
                 'Développement en C & structures de données de base du C++',
@@ -24,6 +24,26 @@ function getData() {
                 'Connaissances basiques en ASP.Net Core',
             ],
             'projects': [
+                {
+                    'title': 'synchronisation de musique Youtube',
+                    'technologies': 'Python, ffmpeg',
+                    'description': 'Ce projet représente un programme en python utilisé pour télécharger des <b>vidéos youtube en format mp3</b> \
+                    et de garder trace des fichiers mp3 téléchargé. Ce projet a été développé pour faciliter and automatiser le téléchargement \
+                     de musiques depuis youtube.',
+                    'duration': 'octobre 2018',
+                    'projectLink': 'https://github.com/touir1/youtube-music-sync',
+                    'projectLinkLabel': 'dépôt github'
+                },
+                {
+                    'title': 'structures de données C',
+                    'technologies': 'Langage C',
+                    'description': 'Ce projet représente une implémentation des <b>structures de données</b> connus. \
+                    Ce projet a été développé afin de rafraîchir mes connaissances du <b>langage C</b> et pour voir \
+                     si je pouvais développer une bibliothéque C facile d\'utilisation implémentant tout les structures de données connus.',
+                    'duration': 'septembre 2018',
+                    'projectLink': 'https://github.com/touir1/Data-structures-C',
+                    'projectLinkLabel': 'dépôt github'
+                },
                 {
                     'title': 'Indexation de fichiers',
                     'technologies': 'nodejs, jquery, javascript, npm',
@@ -327,10 +347,10 @@ function getData() {
             'resumeDescription': '<b>Optimisation</b> oriented developer and a <b>perfection</b> seeker. \
          Has an eye for details and always <b>willing to learn</b>.',
             'interests': [
-                'Competitive programming and problem solving',
-                'Backend optimisations and algorithmics',
-                'Software architectures and development cycles',
-                'Teamwork and knowledge sharing',
+                'Competitive programming & problem solving',
+                'Backend optimisations & algorithmics',
+                'Software architectures & development cycles',
+                'Teamwork & knowledge sharing',
             ],
             'skills': [
                 {
@@ -388,10 +408,29 @@ function getData() {
             ],
             'projects': [
                 {
+                    'title': 'Youtube music sync',
+                    'technologies': 'Python, ffmpeg',
+                    'description': 'This project represents a python program used to download <b>youtube videos in mp3 format</b> \
+                    and to keep track of the mp3 music downloaded. This project was meant to facilitate and automate the download of music from youtube.',
+                    'duration': 'october 2018',
+                    'projectLink': 'https://github.com/touir1/youtube-music-sync',
+                    'projectLinkLabel': 'github repository'
+                },
+                {
+                    'title': 'Data structures C',
+                    'technologies': 'C langage',
+                    'description': 'This project represents an implementation of the known <b>datastructures</b>. \
+                    This project a was developed as a mean to refresh my knowledge of the <b>C langage</b> and to see \
+                     if I could build an easy to use library implementing all the known datastructures so far.',
+                    'duration': 'september 2018',
+                    'projectLink': 'https://github.com/touir1/Data-structures-C',
+                    'projectLinkLabel': 'github repository'
+                },
+                {
                     'title': 'Files indexing',
                     'technologies': 'nodejs, jquery, javascript, npm',
                     'description': 'This project represents a web application that was meant to <b>index</b> a directory \
-                    in the disk. This project a was developed to make it easy to access the documentation which was scattered \
+                    in the disk. This project was developed to make it easy to access the documentation which was scattered \
                      over multiple directories in the disk.',
                     'duration': 'september 2018',
                     'projectLink': 'https://github.com/touir1/disk-file-scraping',
