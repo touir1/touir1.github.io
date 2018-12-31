@@ -10,10 +10,10 @@ function getData() {
             'resumeDescription': 'Développeur orienté <b>optimisation</b> et en quête de <b>perfection</b>. \
         Attentif aux détails et <b>prêt à apprendre</b> à tout moment',
             'interests': [
-                'Résolution de problèmes & programmation compétitive',
-                'Optimisation & algorithmique',
-                'Architectures logicielles & cycles de développement',
                 'Travail d\'équipe & partage de connaissances',
+                'Optimisation backend & algorithmique',
+                'Résolution de problèmes & programmation compétitive',
+                'Architectures logicielles & cycles de développement',
             ],
             'otherSkills': [
                 'Développement en C & structures de données de base du C++',
@@ -347,10 +347,10 @@ function getData() {
             'resumeDescription': '<b>Optimisation</b> oriented developer and a <b>perfection</b> seeker. \
          Has an eye for details and always <b>willing to learn</b>.',
             'interests': [
-                'Competitive programming & problem solving',
-                'Backend optimisations & algorithmics',
-                'Software architectures & development cycles',
                 'Teamwork & knowledge sharing',
+                'Backend optimisations & algorithmics',
+                'Competitive programming & problem solving',
+                'Software architectures & development cycles',
             ],
             'skills': [
                 {
@@ -502,14 +502,14 @@ function getData() {
             ],
             'education': [
                 {
-                    'title': 'Private Higher School of Engineering and Technology Tunis (ESPRIT), Tunisia',
+                    'title': 'Private Higher School of Engineering and Technology (ESPRIT) Tunis, Tunisia',
                     'degree': 'Engineering degree',
                     'description': 'Computer Science - Software Engineering Track',
                     'duration': 'September 2017 - Today',
                     'score': 'In progress',
                 },
                 {
-                    'title': 'Higher Institute of Management Tunis (ISG), Tunisia',
+                    'title': 'Higher Institute of Management (ISG) Tunis, Tunisia',
                     'degree': 'Bachelor degree',
                     'description': 'Computer Science - Computing Applied to Management Track',
                     'duration': 'September 2014 - June 2017',
