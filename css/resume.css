@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Resume v1.0.0 (https://touir1.github.io/)
- * Copyright 2013-2018 Mohamed Ali Touir
+ * Copyright 2013-2019 Mohamed Ali Touir
  * Licensed under MIT (https://github.com/touir1/touir1.github.io/blob/master/LICENSE)
  */
 

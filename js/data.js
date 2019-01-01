@@ -295,7 +295,7 @@ function getData() {
             ],
             'experience': [
                 {
-                    'title': 'Développeur web',
+                    'title': 'Analyste Développeur',
                     'subtitle': 'Linedata',
                     'companyLogo': './img/Linedata_Logo.png',
                     'description': 'L\'une des nombreuses choses que j\'ai apprises en travaillant chez Linedata \
@@ -677,7 +677,7 @@ function getData() {
             ],
             'experience': [
                 {
-                    'title': 'Web developer',
+                    'title': 'Analyst & Software Developer',
                     'subtitle': 'Linedata',
                     'companyLogo': './img/Linedata_Logo.png',
                     'description': 'One of the many things I learned from working at Linedata \
