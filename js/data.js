@@ -19,9 +19,10 @@ function getData() {
                 'Développement en C & structures de données de base du C++',
                 'Développement en utililisant le Spring framework (Java)',
                 'Développement Agile & Scrum',
-                'SQL, Mysql, Oracle(PL/SQL) & Sybase(TransactSQL)',
+                'SQL, Mysql, Oracle(PL/SQL), Sybase(TransactSQL) & SQL Server (T-SQL)',
                 'Optimisation des algorithmes (algorithmes et structures de données)',
                 'Connaissances basiques en ASP.Net Core',
+                'Développement en .Net MVC'
             ],
             'projects': [
                 {
@@ -123,8 +124,8 @@ function getData() {
                     'title': 'Ecole Supérieure Privée d\'Ingénierie et de Technologie (ESPRIT) Tunis, Tunisia',
                     'degree': 'Diplôme d\'Ingénieur',
                     'description': 'Informatique - Génie Logiciel',
-                    'duration': 'Septembre 2017 - Aujourd\'hui',
-                    'score': 'En cours',
+                    'duration': 'Septembre 2017 - Juillet 2022',
+                    'score': '16.5 / 20',
                 },
                 {
                     'title': 'Institut Supérieure de Gestion (ISG) Tunis, Tunisia',
@@ -402,9 +403,10 @@ function getData() {
                 'C Development & C++ basic data structures',
                 'Spring Java framework Development',
                 'Agile Development & Scrum',
-                'SQL, Mysql, Oracle(PL/SQL) & Sybase(TransactSQL)',
+                'SQL, Mysql, Oracle(PL/SQL), Sybase(TransactSQL) & SQL Server (T-SQL)',
                 'Algorithm optimisations (algorithms & data structures)',
                 'ASP.Net Core basic knowledge',
+                'ASP.Net MVC Development',
             ],
             'projects': [
                 {
@@ -505,8 +507,8 @@ function getData() {
                     'title': 'Private Higher School of Engineering and Technology (ESPRIT) Tunis, Tunisia',
                     'degree': 'Engineering degree',
                     'description': 'Computer Science - Software Engineering Track',
-                    'duration': 'September 2017 - Today',
-                    'score': 'In progress',
+                    'duration': 'September 2017 - July 2022',
+                    'score': '16.5 / 20',
                 },
                 {
                     'title': 'Higher Institute of Management (ISG) Tunis, Tunisia',
