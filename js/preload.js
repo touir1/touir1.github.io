@@ -12,6 +12,7 @@ preload(
         "./img/fr.jpg",
         "./img/uk.png",
         "./img/profile.jpg",
+        "./img/profile_2.png",
         "./img/Linedata_Logo.png",
         "./img/Zitouna_Bank_Logo.png"
     ]
