@@ -14,6 +14,7 @@ preload(
         "./img/profile.jpg",
         "./img/profile_2.png",
         "./img/Linedata_Logo.png",
-        "./img/Zitouna_Bank_Logo.png"
+        "./img/Zitouna_Bank_Logo.png",
+        "./img/Oddo_BHF_Logo.png"
     ]
 )
