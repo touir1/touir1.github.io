@@ -6,7 +6,7 @@ function getData() {
         this.Importance = { LOW: 0, MEDIUM: 1, HIGH: 2 };
 
         this.fr = {
-            'domicile': '06 Rue Kawafel, 2040 Rades, Ben Arous, Tunisie',
+            'domicile': 'Tunis, Tunisie',
             'resumeDescription': 'Développeur orienté <b>optimisation</b> et en quête de <b>perfection</b>. \
         Attentif aux détails et <b>prêt à apprendre</b> à tout moment',
             'interests': [
@@ -16,13 +16,12 @@ function getData() {
                 'Architectures logicielles & cycles de développement',
             ],
             'otherSkills': [
-                'Développement en C & structures de données de base du C++',
+                'Développement en .Net MVC & Core',
                 'Développement en utililisant le Spring framework (Java)',
                 'Développement Agile & Scrum',
                 'SQL, Mysql, Oracle(PL/SQL), Sybase(TransactSQL) & SQL Server (T-SQL)',
                 'Optimisation des algorithmes (algorithmes et structures de données)',
-                'Connaissances basiques en ASP.Net Core',
-                'Développement en .Net MVC'
+                'Développement en C & structures de données de base du C++',
             ],
             'projects': [
                 {
@@ -296,6 +295,22 @@ function getData() {
             ],
             'experience': [
                 {
+                    'title': 'Ingénieur Développement',
+                    'subtitle': 'Oddo BHF',
+                    'companyLogo': './img/Oddo_BHF_Logo.png',
+                    'description': 'Au cours de mon expérience chez Oddo BHF en tant qu\'ingénieur logiciel dans l\'équipe \
+                    de <b>gestion d\'actifs</b>, j\'ai développé et maintenu avec succès des solutions logicielles Web pour \
+                    améliorer la récupération de documents, calculer les <b>scores ESG</b> et faciliter l\'intégration des \
+                    données. Travaillant en étroite collaboration avec les équipes d\'Asset Management, j\'ai contribué \
+                    à la production et à la maintenance quotidienne du Système d\'Information AM. De plus, j\'ai joué \
+                    un rôle clé dans la mise en œuvre des <b>API Restful</b> et la gestion des <b>applications de reporting \
+                    financier</b>. Grâce à ces expériences, j\'ai acquis une expertise dans une gamme de technologies, \
+                    notamment <b>C#, .NET MVC4, Durandal, Knockout JS, Java, SAP Business Objects et SQL Server T-SQL</b>. \
+                    Mon passage chez Oddo BHF a renforcé mes compétences en développement de logiciels dans le secteur de \
+                    la gestion d\'actifs, me permettant de proposer des solutions percutantes.',
+                    'date': 'Mai 2019, Aujourd\'hui',
+                },
+                {
                     'title': 'Analyste Développeur',
                     'subtitle': 'Linedata',
                     'companyLogo': './img/Linedata_Logo.png',
@@ -306,7 +321,7 @@ function getData() {
                      le <b>SGBD Sybase</b> comme technologies backend. Avec une équipe de 9 personnes, nous avons développé \
                      un logiciel appelé Uniloan, utilisé pour gérer d’énormes crédits et financements (<b>crédits \
                         syndiqués</b>).',
-                    'date': 'Septembre 2017, Aujourd\'hui',
+                    'date': 'Septembre 2017, Avril 2019',
                 },
                 {
                     'title': 'Stagiaire - Développeur web',
@@ -339,12 +354,12 @@ function getData() {
             'name': 'Touir',
             'surname': 'Mohamed Ali',
             'email': 'touir.mat@gmail.com',
-            'phone': '(+216)58 173 338',
+            'phone': '',
             'facebook': 'https://www.facebook.com/mohamedali.touir.50',
             'linkedin': 'https://www.linkedin.com/in/mohamed-ali-touir-513235108/',
             'github': 'https://github.com/touir1',
             'twitter': 'https://twitter.com/TouirMohamedAli',
-            'domicile': '06 Kawafel Street, 2040 Rades, Ben Arous, Tunisia',
+            'domicile': 'Tunis, Tunisia',
             'resumeDescription': '<b>Optimisation</b> oriented developer and a <b>perfection</b> seeker. \
          Has an eye for details and always <b>willing to learn</b>.',
             'interests': [
@@ -400,13 +415,12 @@ function getData() {
                 },
             ],
             'otherSkills': [
-                'C Development & C++ basic data structures',
+                'ASP.Net MVC & Core Development',
                 'Spring Java framework Development',
                 'Agile Development & Scrum',
                 'SQL, Mysql, Oracle(PL/SQL), Sybase(TransactSQL) & SQL Server (T-SQL)',
                 'Algorithm optimisations (algorithms & data structures)',
-                'ASP.Net Core basic knowledge',
-                'ASP.Net MVC Development',
+                'C Development & C++ basic data structures',
             ],
             'projects': [
                 {
@@ -679,6 +693,21 @@ function getData() {
             ],
             'experience': [
                 {
+                    'title': 'Software Engineer',
+                    'subtitle': 'Oddo BHF',
+                    'companyLogo': './img/Oddo_BHF_Logo.png',
+                    'description': 'During my tenure at Oddo BHF as a Software Engineer in the <b>Asset Management</b> Team, \
+                    I have successfully developed and maintained web software solutions to improve document retrieval, \
+                    calculate <b>ESG scores</b>, and facilitate data integration. Working closely with the Asset Management \
+                    teams, I have contributed to the daily production and maintenance of the AM Information System. \
+                    Additionally, I have played a key role in implementing <b>Restful APIs</b> and managing <b>financial \
+                    reporting applications</b>. Through these experiences, I have gained expertise in a range of \
+                    technologies, including <b>C#, .NET MVC4, Durandal, Knockout JS, Java, SAP Business Objects, \
+                    and SQL Server T-SQL</b>. My time at Oddo BHF has enhanced my skills in software development \
+                    within the asset management industry, enabling me to deliver impactful solutions.',
+                    'date': 'Mai 2019, Today',
+                },
+                {
                     'title': 'Analyst & Software Developer',
                     'subtitle': 'Linedata',
                     'companyLogo': './img/Linedata_Logo.png',
@@ -689,7 +718,7 @@ function getData() {
                     <b>Spring framework</b> and <b>Sybase DBMS</b> as backend technologies. With \
                     a team of 9 persons, we worked as developers of a software named Uniloan used \
                     to manage huge loans and financements (<b>Syndicated loans</b>).',
-                    'date': 'September 2017, Today',
+                    'date': 'September 2017, April 2019',
                 },
                 {
                     'title': 'Intern - Web developer',
