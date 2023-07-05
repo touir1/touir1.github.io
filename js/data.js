@@ -25,6 +25,52 @@ function getData() {
             ],
             'projects': [
                 {
+                    'title': 'Corp ERP',
+                    'technologies': ' C#, .Net 6, Domain Driven Design, Angular, Docker, RabbitMQ',
+                    'description': 'Corp <b>ERP</b> est une <b>application Web</b> conçue pour aider les entreprises informatiques à gérer et suivre \
+                    les documents électroniques, inventaire, finances et autres processus et opérations critiques. Le système capture, \
+                    organise et suit toutes les données requises dans un format complet et fiable pour permettre une prise de décision rapide. \
+                    Il offre également aux utilisateurs un accès facile à des rapports détaillés et à des analyses pour une meilleure prise de décision.',
+                    'duration': 'avril 2023',
+                    'projectLink': 'https://github.com/touir1/Corp.ERP',
+                    'projectLinkLabel': 'dépôt github'
+                },
+                {
+                    'title': 'Documentation d\'Algorithmes & Data Structures',
+                    'technologies': 'Java',
+                    'description': 'Cette documentation fournit un aperçu complet des divers <b>algorithmes, structures de données, \
+                    trucs et astuces pour résoudre des problèmes</b>. Les exemples de code de cette documentation utilisent principalement Java. Chaque \
+                    les algorithmes et structures de données sont expliqués en détail, y compris leurs implémentations et les <b>complexités \
+                    temporelles</b> associées. De plus, la documentation comprend des listes de structures de données et d\'algorithmes \
+                    pour référence rapide.',
+                    'duration': 'juillet 2022',
+                    'projectLink': 'https://github.com/touir1/Algorithms-Data-Structures-Cheat-sheet',
+                    'projectLinkLabel': 'dépôt github'
+                },
+				{
+                    'title': 'Solutions de Competitive Programming',
+                    'technologies': 'Java',
+                    'description': 'Ce référentiel GitHub sert de documentation de mon parcours quotidien de <b>résolution de problèmes</b>, \
+                    spécifiquement destiné à la préparation des entretiens avec Google. Le référentiel comprend une collection de problèmes résolus, \
+                    beaucoup étant résolus dans le cadre de la pratique quotidienne. De plus, je résous les problèmes UVa répertoriés dans le livre \
+                    « Competitive Programming 3 » de Steven & Felix Halim en lisant ce dernier.',
+                    'duration': 'janvier 2022',
+                    'projectLink': 'https://github.com/touir1/ProblemSolving',
+                    'projectLinkLabel': 'dépôt github'
+                },
+				{
+                    'title': 'API Librairie pour Workflow',
+                    'technologies': 'Java',
+                    'description': 'Le projet <b>workflow API</b> basé sur Java fournit des fonctionnalités essentielles pour gérer \
+                    les <b>cycles</b> de flux de travail, surveillance de leur <b>état</b>, gestion des tâches et journalisation. \
+                    Il permet aux utilisateurs de <b>contrôler l\'exécution du workflow</b>, <b>suivre la progression</b>, \
+                    <b>gérer les tâches et les associations</b>, et gagner de la visibiliter grâce à la journalisation. Cette API offre \
+                    une solution simplifiée pour une gestion efficace des workflows.',
+                    'duration': 'décembre 2019',
+                    'projectLink': 'https://github.com/touir1/workflowApi',
+                    'projectLinkLabel': 'dépôt github'
+                },
+                {
                     'title': 'synchronisation de musique Youtube',
                     'technologies': 'Python, ffmpeg',
                     'description': 'Ce projet représente un programme en python utilisé pour télécharger des <b>vidéos youtube en format mp3</b> \
@@ -423,6 +469,51 @@ function getData() {
                 'C Development & C++ basic data structures',
             ],
             'projects': [
+                {
+                    'title': 'Corp ERP',
+                    'technologies': ' C#, .Net 6, Domain Driven Design, Angular, Docker, RabbitMQ',
+                    'description': 'Corp <b>ERP</b> is a <b>web application</b> designed to help It companies manage and track \
+                    electronic documents, inventory, finance and other processes and critical operations. The system captures, \
+                    organizes and tracks all required data in a comprehensive and reliable format to support quick decision-making. \
+                    It also provides uses with easy access to detailed reports and analysis for improved decision making.',
+                    'duration': 'april 2023',
+                    'projectLink': 'https://github.com/touir1/Corp.ERP',
+                    'projectLinkLabel': 'github repository'
+                },
+                {
+                    'title': 'Algorithms & Data Structures cheat sheet',
+                    'technologies': 'Java',
+                    'description': 'This documentation provides a comprehensive overview of various <b>algorithms, data structures, \
+                    problem-solving tricks, and tips</b>. The code examples in this documentation primarily use Java. Each \
+                    algorithm and data structure is thoroughly explained, including their implementations and associated \
+                    <b>time complexities</b>. Additionally, the documentation includes listings of data structures and algorithms \
+					for quick reference.',
+                    'duration': 'july 2022',
+                    'projectLink': 'https://github.com/touir1/Algorithms-Data-Structures-Cheat-sheet',
+                    'projectLinkLabel': 'github repository'
+                },
+				{
+                    'title': 'Competitive Programming Solutions',
+                    'technologies': 'Java',
+                    'description': 'This GitHub repository serves as a documentation of my daily <b>problem-solving</b> journey, \
+                    specifically aimed at preparing for Google interviews. The repository includes a collection of solved problems, \
+                    with many being solved as part of daily practice. Additionally, I am solving UVa problems listed in the book \
+                    "Competitive Programming 3" by Steven & Felix Halim while reading the book.',
+                    'duration': 'january 2022',
+                    'projectLink': 'https://github.com/touir1/ProblemSolving',
+                    'projectLinkLabel': 'github repository'
+                },
+				{
+                    'title': 'Workflow API library',
+                    'technologies': 'Java',
+                    'description': 'The Java-based <b>workflow API</b> project provides essential functionalities for managing \
+                    workflow <b>cycles</b>, monitoring their <b>state</b>, handling tasks, and logging. It enables users to \
+                    <b>control workflow execution</b>, <b>track progress</b>, <b>manage tasks and associations</b>, and gain \
+                    insights through logging. This API offers a streamlined solution for efficient workflow management.',
+                    'duration': 'december 2019',
+                    'projectLink': 'https://github.com/touir1/workflowApi',
+                    'projectLinkLabel': 'github repository'
+                },
                 {
                     'title': 'Youtube music sync',
                     'technologies': 'Python, ffmpeg',
