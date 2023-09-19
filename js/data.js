@@ -341,10 +341,10 @@ function getData() {
             ],
             'experience': [
                 {
-                    'title': 'Ingénieur Développement',
+                    'title': 'Ingénieur Développement Sénior',
                     'subtitle': 'Oddo BHF',
                     'companyLogo': './img/Oddo_BHF_Logo.png',
-                    'description': 'Au cours de mon expérience chez Oddo BHF en tant qu\'ingénieur logiciel dans l\'équipe \
+                    'description': 'Au cours de mon expérience chez Oddo BHF en tant qu\'ingénieur logiciel sénior dans l\'équipe \
                     de <b>gestion d\'actifs</b>, j\'ai développé et maintenu avec succès des solutions logicielles Web pour \
                     améliorer la récupération de documents, calculer les <b>scores ESG</b> et faciliter l\'intégration des \
                     données. Travaillant en étroite collaboration avec les équipes d\'Asset Management, j\'ai contribué \
@@ -784,10 +784,10 @@ function getData() {
             ],
             'experience': [
                 {
-                    'title': 'Software Engineer',
+                    'title': 'Senior Software Engineer',
                     'subtitle': 'Oddo BHF',
                     'companyLogo': './img/Oddo_BHF_Logo.png',
-                    'description': 'During my tenure at Oddo BHF as a Software Engineer in the <b>Asset Management</b> Team, \
+                    'description': 'During my tenure at Oddo BHF as a Senior Software Engineer in the <b>Asset Management</b> Team, \
                     I have successfully developed and maintained web software solutions to improve document retrieval, \
                     calculate <b>ESG scores</b>, and facilitate data integration. Working closely with the Asset Management \
                     teams, I have contributed to the daily production and maintenance of the AM Information System. \
